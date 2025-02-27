@@ -173,3 +173,29 @@ a:hover span:nth-child(6) {
     transform: scaleX(1);
     transform-origin: right;
 }
+
+.timer-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.timer-container h1 {
+    margin-bottom: 10px;
+}
+
+.timer-container p {
+    margin-bottom: 20px;
+}
+
+#countdown {
+    font-size: 48px;
+    font-weight: bold;
+    color: #056d96;
+}
+
+#countdown span {
+    padding: 0 10px;
+}
