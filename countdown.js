@@ -1,7 +1,7 @@
 // script.js
 // Tentukan waktu rilis (jam 12 malam hari ini)
 const releaseTime = new Date();
-releaseTime.setHours(1, 0, 0, 0); // Set jam 12 malam (22:00:00)
+releaseTime.setHours(1, 30, 0, 0); // Set jam 12 malam (22:00:00)
 
 // Ambil elemen countdown
 const hoursElement = document.getElementById("hours");
